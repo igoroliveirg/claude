@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --instagram-gradient: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.instagram-gradient {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.instagram-gradient-hover {
+  @apply hover:shadow-lg transition-all duration-300;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-xl hover:scale-105;
+}
+
+.template-card {
+  @apply aspect-[9/16] bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg overflow-hidden cursor-pointer;
+}
+
+.template-card:hover {
+  @apply shadow-2xl scale-105;
+}
