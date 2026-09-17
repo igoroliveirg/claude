@@ -17,9 +17,11 @@ Por que esse recorte se defende:
 1. **A norma exige profissional independente.** Requisito regulatório, não argumento de marketing, e encaixa no perfil de bug bounty do Lucas melhor do que em ferramenta SaaS.
 2. **O agente já é sistema crítico.** A Febraban documentou que instituições brasileiras concedem credencial de acesso elevado para robô executar transação na infraestrutura central. O pentest anual obrigatório não testa injeção de prompt.
 3. **O comprador tem prazo vencido.** A adequação à CMN 5.274 e à BCB 538 encerrou em 1º de março de 2026.
-4. **A Conta Simples é a prova viva.** O "Faça Seu Agente" deixa o cliente final construir agentes que executam tarefas financeiras numa plataforma que movimentou R$ 90 bilhões no primeiro semestre.
+4. **Os dois design partners são a prova viva.** A Conta Simples deixa o cliente final construir agentes que executam tarefas financeiras numa plataforma que movimentou R$ 90 bilhões no primeiro semestre. A Enter conduz 300 mil processos por ano com agentes, e já tem SOC 2, ISO 27001 e teste de intrusão regular que não cobre o agente.
 
-Frase de posicionamento: **o agente de IA virou sistema crítico, o laudo de pentest que o BACEN exige não cobre ele, e a gente cobre.**
+**A regra que generaliza os dois:** empresa com auditoria obrigatória que exige teste de intrusão, cujo produto principal é um agente que o teste não cobre. O BACEN é a cabeça de ponte porque tem prazo vencido e bolso concentrado. SOC 2 e ISO 27001 são a expansão, e não são brasileiros. Isso responde de graça a pergunta "por que Brasil e não EUA".
+
+Frase de posicionamento: **o agente de IA virou sistema crítico, e o teste de intrusão que a auditoria exige não cobre ele.**
 
 Se o Igor recusar esse recorte, o deck muda de novo. Mas o recorte anterior não sobrevive a um investidor que conheça a categoria.
 
@@ -59,7 +61,11 @@ Rodapé: Igor Gontijo, Lucas Faria. [PREENCHER: mês e ano do pitch].
 
 > Três provas. Nenhuma é promessa.
 >
-> **R$ 40 mil de MRR contratado.** Conta Simples e Enter pagam R$ 20 mil por mês cada, em contrato assinado, com escopo de produção e preço travado por 12 meses na conversão. [PREENCHER: data de início].
+> **R$ 40 mil de MRR contratado.** Dois clientes pagantes, R$ 20 mil por mês cada, contrato assinado com escopo de produção.
+>
+> **Conta Simples.** Está construindo o banco agêntico B2B, onde o cliente final cria os próprios agentes para executar tarefas financeiras. R$ 90 bilhões movimentados no primeiro semestre de 2026, 45 mil empresas.
+>
+> **Enter.** Primeiro unicórnio de IA da América Latina. US$ 1,2 bilhão de valuation, Série B de US$ 100 milhões liderada pelo Founders Fund, com Sequoia e Ribbit. Agentes conduzem 300 mil processos por ano.
 >
 > **Quem quebra.** [PREENCHER: @handle público do Lucas] está entre os top [PREENCHER: posição] do [PREENCHER: HackerOne / Bugcrowd / programa]. [PREENCHER: N] vulnerabilidades aceitas, [PREENCHER: N] CVEs, US$ [PREENCHER: valor] em recompensas. Perfil público, verificável agora.
 >
@@ -69,7 +75,9 @@ Rodapé, em corpo menor: a Conta Simples adquiriu a empresa anterior do Igor em 
 
 **Notas:**
 
-O número vem primeiro porque agora existe. R$ 40 mil de MRR converte para dentro da banda de US$ 5K a US$ 50K que investidor usa como referência de tração em seed. Confirmar a conversão na taxa do dia do pitch antes de citar o número em dólar, e nunca citar os dois se a taxa deixar o número em dólar feio.
+O número vem primeiro porque agora existe. R$ 40 mil de MRR são cerca de US$ 7,8 mil ao câmbio de 5,15, o que entra na borda de baixo da banda de US$ 5K a US$ 50K que investidor usa como referência em seed. Confirmar a taxa no dia do pitch.
+
+Mas o que carrega esse slide não é o MRR, é quem paga. Os dois nomes provam coisas diferentes e complementares: a Conta Simples prova que o agente já move dinheiro em escala, e a Enter prova que a tese não depende de fintech e que empresa com SOC 2 e ISO 27001 compra mesmo já fazendo pentest. Um investidor americano não conhece a Conta Simples. Ele conhece o Founders Fund e a Sequoia, e a Enter carrega os dois.
 
 O contrato assinado é o que sustenta a palavra "contratado". Piloto de oito semanas pago não é MRR recorrente ainda, e um investidor experiente vai apertar nesse ponto. A resposta honesta, preparada para o Q&A e não para o slide: são dois contratos de piloto pago com preço de conversão travado e data de decisão, e a conversão é o marco do slide 13. Chamar de ARR é o tipo de esticada que queima o deck.
 
@@ -213,6 +221,8 @@ Segunda objeção provável: "a Conviso não faz isso?". A Conviso é referênci
 > Elas cumpriram a norma no que sabiam testar. O agente de IA ficou de fora, porque nenhum fornecedor de pentest brasileiro sabe testar isso e nenhum fornecedor global entrega o laudo no formato que o BC exige.
 >
 > É esse buraco que a gente ocupa.
+>
+> Fora do BACEN, a mesma obrigação vem por certificação: SOC 2 e ISO 27001 exigem teste de intrusão periódico, e o agente fica de fora do escopo pelo mesmo motivo. É assim que a gente sai do Brasil sem trocar de produto.
 
 **Nota:** "norma vencida com auditor marcado" contra "CISO curioso" é a diferença entre ciclo de venda de 45 dias e de 9 meses. É o go-to-market inteiro em uma frase, e por isso não precisa de slide de GTM separado.
 

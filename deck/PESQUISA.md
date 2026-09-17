@@ -61,6 +61,50 @@ Fontes: [Startups, banco agêntico B2B](https://startups.com.br/negocios/fintech
 
 ---
 
+## 3b. Enter: o design partner é um unicórnio, e isso reescreve o slide 2
+
+`getenter.ai`. O site está bloqueado pelo proxy deste ambiente, então tudo abaixo vem de imprensa.
+
+- **Primeiro unicórnio de IA da América Latina.** Série B de **US$ 100 milhões**, mais de R$ 500 milhões, a um valuation de **US$ 1,2 bilhão**, liderada pelo **Founders Fund**, com **Ribbit Capital, Sequoia Capital, Kaszek, ONEVC e Atlantico**. Anunciada em maio de 2026.
+- Fundada há cerca de dois anos e meio por Henrique Vaz, Mateus Costa-Ribeiro e Michael Mac-Vicar.
+- Produto: **agentes de IA conduzindo cada etapa do processo em contencioso cível e trabalhista de massa** para grandes empresas, com auditoria e revisão por escritórios parceiros e departamentos jurídicos. Mais de **300 mil processos por ano** passam pelo EnterOS.
+- Receita cresceu mais de dez vezes desde a Série A e a base de clientes triplicou.
+- **Postura de segurança: o EnterOS tem SOC 2, ISO 27001, ISO 27701 e conformidade LGPD, com log de auditoria cobrindo toda atividade em produção, teste de intrusão regular e criptografia.**
+
+Três consequências para o deck, em ordem de importância:
+
+**1. O slide 2 muda de patamar.** "Conta Simples e Enter" deixa de ser duas empresas brasileiras e passa a ser a fintech que está construindo banco agêntico com R$ 90 bilhões movimentados, mais o primeiro unicórnio de IA da América Latina, financiado por Founders Fund e Sequoia. Qualquer investidor reconhece o segundo nome.
+
+**2. Enter já faz pentest regular e tem SOC 2 e ISO 27001.** Isso não enfraquece a venda, é o argumento. A certificação exige teste de intrusão periódico dos sistemas em escopo. O fornecedor de pentest deles quase certamente testa aplicação web e infraestrutura. O produto da Enter **é** o agente. O sistema mais crítico é o menos testado, e a empresa já tem orçamento, processo de auditoria e maturidade para comprar. Não é venda de evangelização, é venda de cobertura de escopo.
+
+**3. O cap table da Enter é caminho de captação.** Founders Fund, Sequoia, Ribbit, Kaszek, ONEVC e Atlantico. Um design partner pagante e referenciável nesse perfil vale mais como porta de entrada para a rodada do que como receita. Tratar a chamada de referência da cláusula 8 do termo como ativo de captação, não como formalidade.
+
+**Regulatório da Enter, com cuidado para não esticar:** a Resolução CNJ nº 615, de 11 de março de 2025, atualiza a 332/2020 e regula uso de IA **pelo Poder Judiciário**, com exigência de transparência, supervisão humana, proteção de dados e classificação de risco, e dá à OAB acesso a relatórios de auditoria e à parametrização ao longo do ciclo de vida das soluções. Ela vincula tribunais, não a Enter diretamente. O que vincula a Enter é LGPD, o contrato com os clientes e as auditorias anuais de SOC 2, ISO 27001 e ISO 27701. Não apresentar a CNJ 615 como obrigação da Enter.
+
+Fontes: [Forbes, rodada de US$ 100 milhões](https://forbes.com.br/forbes-money/2026/05/startup-juridica-enter-vira-unicornio-de-ia-com-rodada-de-us-100-milhoes-liderada-pelo-founders-fund/), [CNN Brasil, valuation de US$ 1,2 bi](https://www.cnnbrasil.com.br/economia/negocios/startup-brasileira-de-ia-juridica-enter-alcanca-us-12-bi-em-valuation/), [InfoMoney, quem é a Enter](https://www.infomoney.com.br/mercados/startups-quem-e-a-enter-unicornio-brasileiro-de-ia-do-setor-juridico/), [Enter, sobre](https://www.getenter.ai/en/about-us), [CNJ, Resolução 615/2025](https://atos.cnj.jus.br/atos/detalhar/6001), [CNJ, aprovação da resolução](https://www.cnj.jus.br/cnj-aprova-resolucao-regulamentando-o-uso-da-ia-no-poder-judiciario/).
+
+---
+
+## 3c. A tese que une os dois design partners
+
+Este é o achado que amarra o deck.
+
+| | Conta Simples | Enter |
+|---|---|---|
+| O que o agente faz | executa operação financeira em plataforma que movimentou R$ 90 bi | conduz etapa de processo em 300 mil ações por ano |
+| Obrigação de pentest | CMN 5.274 e BCB 538, anual, profissional independente, prazo vencido em março de 2026 | SOC 2, ISO 27001 e ISO 27701, auditoria periódica |
+| Quem cobra | Banco Central | auditor de certificação e o cliente corporativo |
+| O que o pentest atual cobre | rede, aplicação, cloud, Active Directory | aplicação web e infraestrutura |
+| O que não cobre | o agente | o agente |
+
+A regra geral: **empresa com auditoria obrigatória que exige teste de intrusão, cujo produto principal é um agente que o teste não cobre.**
+
+O BACEN é a cabeça de ponte, porque é o maior bolso concentrado, tem prazo vencido e não tem fornecedor. A trilha de certificação, SOC 2 e ISO 27001, é a expansão, e ela **não é brasileira**. É a mesma obrigação em qualquer lugar do mundo.
+
+Isso responde de graça a pergunta "por que Brasil e não EUA", que o deck precisaria responder se o alvo for US$ 5M: começamos onde a obrigação é mais dura e o concorrente não está, com a mesma obrigação existindo globalmente via certificação.
+
+---
+
 ## 4. Onde eu estava errado sobre a concorrência
 
 A estrutura anterior do deck dizia, no slide 8: "todos eles são defesa, ninguém testa se a defesa aguenta". **Isso é falso.** Um investidor que conhece a categoria derruba isso na primeira pergunta.
