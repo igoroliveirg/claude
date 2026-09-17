@@ -47,26 +47,31 @@ Rodapé: Igor Gontijo, Lucas Faria. [PREENCHER: mês e ano do pitch].
 
 ## Slide 2. A prova
 
-**Objetivo:** substituir tração. É aqui que o investidor decide se continua lendo. Sem receita, o que segura esse slide é credencial verificável hoje mais compromisso de cliente assinado.
+**Objetivo:** é aqui que o investidor decide se continua lendo. Com os dois pilotos pagos, esse slide deixa de ser prova de pessoa e passa a ter número na frente, que é exatamente o padrão dos decks que fecharam rodada entre 2024 e 2026.
 
 **Copy:**
 
 > Três provas. Nenhuma é promessa.
 >
-> **1. Quem quebra.** [PREENCHER: @handle público do Lucas] está entre os top [PREENCHER: posição] do [PREENCHER: HackerOne / Bugcrowd / programa]. [PREENCHER: N] vulnerabilidades aceitas, [PREENCHER: N] CVEs, US$ [PREENCHER: valor] em recompensas. Perfil público, verificável agora.
+> **R$ 40 mil de MRR contratado.** Conta Simples e Enter pagam R$ 20 mil por mês cada, em contrato assinado, com escopo de produção e preço travado por 12 meses na conversão. [PREENCHER: data de início].
 >
-> **2. Quem já abriu a porta.** Conta Simples e Enter assinaram como design partners. Acesso a ambiente de produção, champion nomeado, preço de conversão acordado em R$ [PREENCHER: valor] por mês.
+> **Quem quebra.** [PREENCHER: @handle público do Lucas] está entre os top [PREENCHER: posição] do [PREENCHER: HackerOne / Bugcrowd / programa]. [PREENCHER: N] vulnerabilidades aceitas, [PREENCHER: N] CVEs, US$ [PREENCHER: valor] em recompensas. Perfil público, verificável agora.
 >
-> **3. Quem confirmou a dor.** [PREENCHER: N] entrevistas com times de segurança e compliance de fintechs brasileiras. [PREENCHER: N] já têm IA em produção sem nenhuma validação de segurança específica para isso.
+> **Quem confirmou a dor.** [PREENCHER: N] entrevistas com times de segurança e compliance de fintechs brasileiras. [PREENCHER: N] já têm IA em produção sem nenhuma validação de segurança específica para isso.
 
 Rodapé, em corpo menor: a Conta Simples adquiriu a empresa anterior do Igor em 2022. Relação preexistente, declarada. A Enter é independente.
 
-**Nota:** esse rodapé não é humildade, é blindagem. Investidor descobre a relação em cinco minutos de diligência. Declarar antes tira a arma dele e compra credibilidade no resto do deck. Se a Conta Simples for apresentada como validação de mercado limpa, o deck inteiro perde confiança quando a ligação aparecer.
+**Notas:**
 
-Se os itens 2 e 3 não forem verdade na data do pitch, esse slide vira mentira detectável. Ver `LACUNAS.md`.
+O número vem primeiro porque agora existe. R$ 40 mil de MRR converte para dentro da banda de US$ 5K a US$ 50K que investidor usa como referência de tração em seed. Confirmar a conversão na taxa do dia do pitch antes de citar o número em dólar, e nunca citar os dois se a taxa deixar o número em dólar feio.
+
+O contrato assinado é o que sustenta a palavra "contratado". Piloto de oito semanas pago não é MRR recorrente ainda, e um investidor experiente vai apertar nesse ponto. A resposta honesta, preparada para o Q&A e não para o slide: são dois contratos de piloto pago com preço de conversão travado e data de decisão, e a conversão é o marco do slide 13. Chamar de ARR é o tipo de esticada que queima o deck.
+
+O rodapé sobre a Conta Simples não é humildade, é blindagem. O investidor descobre a relação em cinco minutos de diligência. Declarar antes tira a arma dele e compra credibilidade no resto do deck.
+
+Se os contratos não estiverem assinados na data do pitch, esse slide inteiro volta para a versão sem número e a ordem muda: credencial do Lucas primeiro. Ver `LACUNAS.md`.
 
 ---
-
 ## Slide 3. O problema
 
 **Objetivo:** mostrar que existe uma superfície nova e que ninguém está olhando para ela.
@@ -213,12 +218,14 @@ Objeção a preparar para o Q&A, não para o slide: "e se a Lakera lançar isso?
 
 > [PREENCHER: N] instituições de pagamento, adquirentes e fintechs autorizadas pelo BACEN.
 > × [PREENCHER: %] com IA em produção hoje, medido nas nossas entrevistas.
-> × R$ [PREENCHER: preço] por ambiente por mês.
+> × R$ 240 mil por ambiente por ano, que é o preço que dois clientes já pagam.
 > = R$ [PREENCHER: resultado] de mercado acessível só nesse recorte, só no Brasil.
 >
 > Expansão: [PREENCHER: segmento 2], depois LatAm.
 
 **Nota:** o multiplicador do meio tem que sair das entrevistas de vocês. É o único número do deck que nenhum concorrente tem, e é o que prova que vocês falaram com o mercado. Número de fonte pública nesse lugar desperdiça o slide.
+
+A força desse slide é que o preço não é estimativa. R$ 240 mil por ano por ambiente é o que a Conta Simples e a Enter estão pagando, não o que vocês esperam cobrar. Diga isso em voz alta na apresentação, porque é a diferença entre mercado bottom-up e TAM disfarçado.
 
 ---
 
@@ -228,13 +235,15 @@ Objeção a preparar para o Q&A, não para o slide: "e se a Lakera lançar isso?
 
 **Copy:**
 
-> Assinatura anual por ambiente. R$ [PREENCHER: piso] a R$ [PREENCHER: teto] por mês.
+> Assinatura por ambiente. Tabela de R$ [PREENCHER: tabela] por mês. R$ 20 mil por mês no preço de design partner, travado por 12 meses.
 >
 > Margem bruta hoje: [PREENCHER: %]. O custo é inferência e compute de execução.
 >
 > Onde chega: [PREENCHER: %] em [PREENCHER: prazo]. A biblioteca de ataque é custo fixo amortizado, não custo por cliente.
 
 **Nota:** produto de IA roda perto de 52% de margem bruta contra 75% a 85% de SaaS. Série A cobra acima de 60%. Chegar com o número e com o caminho fecha a pergunta. Chegar sem ele entrega a condução da conversa para o investidor.
+
+Mostrar tabela e preço de design partner juntos faz um trabalho extra: prova que R$ 20 mil é desconto com contrapartida, não o teto do que o mercado paga. Se o deck só mostrar R$ 20 mil, o investidor assume que esse é o preço máximo e recalcula o mercado do slide 10 para baixo.
 
 ---
 
@@ -271,6 +280,8 @@ Objeção a preparar para o Q&A, não para o slide: "e se a Lakera lançar isso?
 > O que destrava a Série A: US$ [PREENCHER: ARR] de receita recorrente, [PREENCHER: N] clientes, [PREENCHER: prova independente publicada].
 
 **Nota:** vários decks acima de US$ 5M entre 2024 e 2026 não têm slide de ask nem de uso de recursos. Aqui vale ter, porque o time não tem exit em segurança e o investidor vai querer ver que o plano é de operador.
+
+Com R$ 40 mil de MRR contratado, o marco de Série A fica concreto em vez de abstrato: a conta é quantos clientes a R$ 240 mil por ano faltam para chegar no número. Fazer essa conta no slide, com o número de clientes explícito, vale mais que qualquer projeção de receita em curva.
 
 Se o alvo continuar sendo US$ 5M, esse deck precisa de um slide 14: "por que Brasil e não EUA". US$ 5M sem tração é captação fora do Brasil, e essa é a primeira pergunta de um fundo americano. Ver `LACUNAS.md`.
 

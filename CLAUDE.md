@@ -206,3 +206,15 @@ Material da hify.ai:
 - `design-partners/ROTEIRO-CONVERSAO.md`: roteiro das conversas com Conta Simples e Enter, com objeções, fechamento e mensagens prontas.
 
 Regra: nenhum número entra no deck sem fonte citável ou dado próprio verificável. Placeholder é melhor que número inventado, porque placeholder some na revisão e número inventado morre na diligência.
+
+## 12. Decisões fechadas pelo Igor
+
+Não reabrir sem ele pedir.
+
+- **Preço de design partner:** R$ 20 mil por mês por ambiente, piloto e conversão, travado por 12 meses. Preço de tabela ainda em aberto, sugerido R$ 30 mil.
+- **Uso do nome:** Conta Simples e Enter podem ser nomeadas em deck e material comercial. As três autorizações da cláusula 8 do termo entram como contrapartida do preço de design partner.
+- **Propriedade intelectual:** achado e relatório são do cliente. Produto, metodologia e biblioteca de ataque são da hify.ai, incluindo melhoria derivada de achado no ambiente do cliente na forma despersonalizada. É o efeito de corpus do slide 7 e não é negociável para baixo.
+
+Consequência dos três: com os dois pilotos pagos assinados, o deck passa a ter R$ 40 mil de MRR contratado e o slide 2 abre com número, não com credencial. A leitura de tamanho de rodada mudou junto, ver lacuna 11.
+
+Ainda em aberto e ainda bloqueando o deck: recorte de posicionamento, dedicação do Lucas, credencial pública do Lucas e assinatura dos dois contratos.

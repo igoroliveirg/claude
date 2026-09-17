@@ -35,10 +35,17 @@ Nota: bug bounty continuado não é conflito se estiver enquadrado como alimenta
 
 ### 4. Status real dos design partners
 
-**Onde:** slide 2, item 2. Slide 6. Slide 12.
+**Onde:** slide 2. Slide 6. Slide 10. Slide 11.
 **Dono:** Igor.
-**O que falta, para cada um dos dois:** contrato assinado com escopo, acesso a ambiente concedido, champion nomeado com cargo, preço de conversão acordado por escrito, data prevista de conversão.
-**Se não resolver:** são logo, não prova, e o slide 2 vira mentira detectável em diligência. Com a Conta Simples pesa mais, porque a relação preexistente já desconta o valor probatório. Se nem contrato tiver, o desconto vira zero.
+
+**Já decidido, não voltar atrás:** preço de R$ 20 mil por mês por ambiente, as três autorizações da cláusula 8 (nome, achado anonimizado, referência) e a propriedade intelectual da cláusula 11. Estão aplicados em `design-partners/TERMO.md`.
+
+**O que ainda falta, para cada um dos dois:** contrato assinado, escopo do ambiente definido, acesso concedido, champion nomeado com cargo, data de início e data de decisão da conversão. Falta também o preço de tabela, que é o item 7 aqui.
+
+**Se não resolver:** o slide 2 perde o número e volta a abrir com a credencial do Lucas. A diferença entre as duas versões do slide 2 é a diferença entre um deck com tração e um deck sem, e é o único bloqueador dos quatro que ainda depende de execução em vez de decisão.
+
+**Prioridade entre os dois:** se só der para fechar um, feche a Enter. É o independente, e é o que carrega peso probatório. A Conta Simples sozinha, com a relação preexistente declarada, o investidor desconta.
+
 **Material pronto:** `design-partners/TERMO.md` e `design-partners/ROTEIRO-CONVERSAO.md`. Falta executar as duas conversas e passar a cláusula 12 pelo advogado.
 
 ---
@@ -59,12 +66,18 @@ Nota: bug bounty continuado não é conflito se estiver enquadrado como alimenta
 **O que falta:** confirmar quais exigências de BACEN, ANPD e PCI DSS 4.0 realmente alcançam sistema de IA hoje, e o que é interpretação. Separar o que já é obrigação do que está em tramitação, como o PL 2338.
 **Se não resolver:** citar regra que não se aplica exatamente é o erro que um investidor com fintech no portfólio pega na hora, e contamina a credibilidade do resto do deck.
 
-### 7. Preço
+### 7. Preço de tabela
 
-**Onde:** slide 2. Slide 10. Slide 11.
+**Onde:** slide 10. Slide 11. Cláusula 7 do termo.
 **Dono:** Igor.
-**O que falta:** faixa mensal por ambiente, testada com os design partners e nas entrevistas.
-**Referência:** Pentera perto de US$ 100 mil por ano, XBOW a partir de US$ 4 mil por engajamento. O mid-market brasileiro não paga nenhum dos dois. O preço tem que sair da conversa de venda, não de conversão de dólar.
+
+**Já decidido:** R$ 20 mil por mês por ambiente, preço de design partner, travado por 12 meses na conversão.
+
+**O que falta:** o preço de tabela, sugerido em R$ 30 mil. Precisa existir no papel mesmo que ninguém pague hoje.
+
+**Por que não é detalhe:** sem tabela, R$ 20 mil não é desconto de design partner, é o preço da hify.ai. Isso tira a alavanca de aumentar depois, faz o slide 10 recalcular o mercado para baixo e transforma as três autorizações da cláusula 8 em favor em vez de contrapartida.
+
+**Referência:** a Pentera roda perto de US$ 100 mil por ano. R$ 240 mil por ano por ambiente fica bem abaixo disso e continua sendo o topo do que o mid-market brasileiro paga. A tabela de R$ 30 mil mantém a distância do concorrente global e ainda dá espaço de desconto.
 
 ### 8. Margem bruta
 
@@ -92,7 +105,20 @@ Nota: bug bounty continuado não é conflito se estiver enquadrado como alimenta
 **Onde:** slide 13, e possível slide 14.
 **Dono:** Igor.
 **O que falta:** bater o martelo entre US$ 5M e pré-seed de US$ 500K a US$ 1.5M.
-**O trade-off:** US$ 5M sem tração provavelmente é captação fora do Brasil, e aí entra o slide "por que Brasil e não EUA", mais a exigência de mostrar caminho para métrica de Série A. Pré-seed constrói a prova primeiro e evita rodada inflada sem caminho. O volume de deals de seed caiu perto de 30% no primeiro semestre de 2026, o que pesa contra o número maior.
+
+**Mudou com o preço de R$ 20 mil.** O argumento pré-seed era construído sobre "sem tração nenhuma". Dois pilotos pagos a R$ 20 mil dão R$ 40 mil de MRR contratado, que converte para dentro da banda de US$ 5K a US$ 50K que investidor usa como referência de tração em seed. Isso não torna US$ 5M automático, mas tira vocês da faixa onde seed era inviável.
+
+**O que ainda pesa contra US$ 5M:**
+
+- Dois clientes, não cinco a quinze. A banda de MRR foi atingida por preço alto, não por volume, e investidor sabe ler a diferença.
+- Um dos dois é relação preexistente declarada.
+- Piloto de oito semanas pago não é receita recorrente provada. Só vira depois da conversão.
+- O volume de deals de seed caiu perto de 30% no primeiro semestre de 2026.
+
+**Leitura atualizada:** a decisão razoável agora é seed entre US$ 2M e US$ 3M, não US$ 5M nem pré-seed de US$ 500K. Com a conversão dos dois pilotos confirmada e um terceiro cliente independente pagando, US$ 5M volta para a mesa.
+
+Se o alvo continuar sendo US$ 5M, entra o slide 14, "por que Brasil e não EUA", porque esse número sem volume de clientes é captação fora do Brasil.
+
 **Nota:** essa decisão muda o slide 13 inteiro e a lista de fundos. Não é detalhe de acabamento.
 
 ### 12. Equity entre Igor e Lucas

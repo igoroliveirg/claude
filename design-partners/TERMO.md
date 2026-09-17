@@ -67,33 +67,39 @@ Assinatura desta cláusula por quem tem poder de representação da contratante.
 ## 6. Prazo e critério de sucesso
 
 - **Início:** [PREENCHER].
-- **Duração do piloto:** [PREENCHER: sugerido 6 a 8 semanas].
+- **Duração do piloto:** [PREENCHER: sugerido 8 semanas, para o faturamento fechar em dois meses redondos].
 - **Esforço pedido ao time da contratante:** [PREENCHER: sugerido até 4 horas totais, sendo 1 hora de setup e o resto de revisão de achado].
 - **Entregas:** [PREENCHER: N] ciclos de execução, relatório por ciclo com achado reproduzível, e um relatório final no formato que o compliance entrega ao auditor.
 - **Critério de sucesso, acordado pelas duas partes:** [PREENCHER]. Exemplo utilizável: pelo menos um achado de severidade média ou superior que o processo atual de segurança da contratante não teria encontrado.
 
 Critério de sucesso definido antes é o que permite pedir a conversão sem negociar de novo. Sem ele, a conversa de renovação começa do zero.
 
-## 7. Preço de conversão
+## 7. Preço
 
-- **Preço do piloto:** R$ [PREENCHER].
-- **Preço após o piloto:** R$ [PREENCHER] por mês, por ambiente, em contrato de [PREENCHER: 12] meses.
-- **Data de decisão:** até [PREENCHER: data], o champion responde por escrito se converte.
-- **Desconto de design partner:** [PREENCHER: %] sobre o preço de tabela, travado por [PREENCHER: prazo], em contrapartida ao acesso antecipado e ao uso do nome na cláusula 8.
+- **Preço de tabela:** R$ [PREENCHER: sugerido 30.000] por mês, por ambiente.
+- **Preço de design partner, piloto e conversão:** R$ 20.000 por mês, por ambiente. Travado por 12 meses a partir da conversão.
+- **Faturamento do piloto:** mensal, a partir do início da cláusula 6.
+- **Data de decisão da conversão:** até [PREENCHER: data], o champion responde por escrito se converte. Sem resposta na data, o contrato segue no preço de design partner por inércia, cancelável com [PREENCHER: 30] dias.
+- **Contrapartida do desconto:** acesso antecipado, uso do nome na cláusula 8 e chamada de referência.
 
-**Recomendação:** cobre pelo piloto, mesmo que seja pouco. Investidor lê piloto pago e piloto gratuito de formas completamente diferentes, porque piloto pago é orçamento aprovado e piloto gratuito é favor. R$ 3 mil cobrados valem mais no deck que R$ 30 mil prometidos para depois.
+O preço de tabela precisa existir no papel mesmo que ninguém pague ele hoje. Sem tabela, R$ 20.000 não é desconto de design partner, é o seu preço, e você perdeu a alavanca de aumentar depois.
 
-Se cobrar travar a assinatura, o mínimo aceitável é preço de conversão acordado por escrito com data de decisão. Piloto sem preço e sem data não é design partner, é teste de produto de graça.
+**Nota sobre o número.** R$ 20.000 por mês são R$ 240 mil por ano por ambiente. Isso é preço de categoria estabelecida, não de pré-produto. Duas consequências:
+
+1. Dois pilotos pagos nesse valor dão R$ 40 mil de MRR contratado, que é tração de verdade e muda o slide 2 do deck. Ver `deck/ESTRUTURA.md`.
+2. É o número que pode travar a Enter, que é justamente o design partner que vale mais. Se travar, encurte o escopo, nunca o valor mensal. Ver a objeção de preço em `ROTEIRO-CONVERSAO.md`.
 
 ## 8. Uso do nome e dos achados
 
 A contratante autoriza a hify.ai a:
 
-- Citar seu nome e logo como design partner em material de captação e comercial: [ ] sim, livremente. [ ] sim, com aprovação de cada peça. [ ] não.
-- Usar achados técnicos anonimizados, sem identificar a contratante, em material de captação e comercial: [ ] sim. [ ] sim, com aprovação. [ ] não.
-- Atender uma chamada de referência com investidor, sob NDA: [ ] sim. [ ] não.
+- Citar seu nome e logo como design partner em material de captação e comercial: **[x] sim, livremente.**
+- Usar achados técnicos anonimizados, sem identificar a contratante, em material de captação e comercial: **[x] sim.**
+- Atender uma chamada de referência com investidor, sob NDA: **[x] sim.**
 
-Marcar as três. A terceira é a que salva se a primeira for "não": referência por telefone com o champion vale quase tanto quanto o logo em diligência, e é muito mais fácil de conseguir.
+As três autorizações são condição do preço de design partner da cláusula 7. Quem não autoriza paga tabela.
+
+Essa cláusula é o que sustenta o slide 2 do deck. Sem ela, nome de cliente vira "uma fintech brasileira" e perde a metade do valor probatório.
 
 ## 9. Confidencialidade
 
@@ -109,9 +115,13 @@ Recusar essa cláusula é sinal de alerta. Design partner pedindo exclusividade 
 
 ## 11. Propriedade intelectual
 
-Achados e relatórios pertencem à contratante. Produto, metodologia, biblioteca de ataque e qualquer melhoria derivada pertencem à hify.ai, inclusive quando a melhoria vier de achado no ambiente da contratante, desde que sem dado identificável dela.
+Achados, relatórios e evidências produzidos sobre o ambiente da contratante pertencem à contratante.
 
-Essa cláusula é o efeito de corpus do slide 7 do deck. Se ela cair, o moat cai com ela.
+Produto, metodologia, biblioteca de ataque, automações e qualquer melhoria derivada pertencem à hify.ai, inclusive quando a melhoria tiver origem em achado no ambiente da contratante, desde que incorporada sem dado, identificador, configuração ou informação que permita identificar a contratante ou seus clientes.
+
+A contratante não adquire direito, licença ou exclusividade sobre a biblioteca de ataque, e reconhece que técnicas derivadas do trabalho no seu ambiente serão aplicadas a outros clientes na forma despersonalizada acima.
+
+Essa cláusula é o efeito de corpus do slide 7 do deck: ataque encontrado em um cliente vira teste para todos. É o único ativo da hify.ai que melhora sozinho com escala. Negociar essa cláusula para baixo custa mais que o contrato vale, e um investidor que ler o termo vai olhar exatamente para ela.
 
 ## 12. Responsabilidade
 
@@ -138,10 +148,10 @@ Antes de mandar para assinatura, confirmar que não sobrou placeholder em:
 - [ ] Cláusula 2, champion com nome e cargo
 - [ ] Cláusula 3, sistema e ambiente específicos, e o que está fora
 - [ ] Cláusula 5, todos os limites, principalmente dado real
-- [ ] Cláusula 6, critério de sucesso acordado
-- [ ] Cláusula 7, preço de conversão e data de decisão
-- [ ] Cláusula 8, as três caixas marcadas
+- [ ] Cláusula 6, critério de sucesso acordado, e duração de 8 semanas para o faturamento fechar em dois meses redondos
+- [ ] Cláusula 7, preço de tabela e data de decisão
 - [ ] Cláusula 12, passada pelo advogado
 
-Assinado sem a cláusula 7, o deck não pode dizer "preço de conversão acordado".
-Assinado sem a cláusula 8, o deck não pode dizer o nome.
+Já resolvido e não precisa de decisão: cláusula 7, preço de design partner de R$ 20.000 por mês. Cláusula 8, as três autorizações. Cláusula 11, propriedade intelectual.
+
+Assinado sem a cláusula 7 completa, o deck não pode dizer "preço travado por 12 meses", só "preço do piloto".
