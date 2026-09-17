@@ -39,6 +39,7 @@ Nota: bug bounty continuado não é conflito se estiver enquadrado como alimenta
 **Dono:** Igor.
 **O que falta, para cada um dos dois:** contrato assinado com escopo, acesso a ambiente concedido, champion nomeado com cargo, preço de conversão acordado por escrito, data prevista de conversão.
 **Se não resolver:** são logo, não prova, e o slide 2 vira mentira detectável em diligência. Com a Conta Simples pesa mais, porque a relação preexistente já desconta o valor probatório. Se nem contrato tiver, o desconto vira zero.
+**Material pronto:** `design-partners/TERMO.md` e `design-partners/ROTEIRO-CONVERSAO.md`. Falta executar as duas conversas e passar a cláusula 12 pelo advogado.
 
 ---
 

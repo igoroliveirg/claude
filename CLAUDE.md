@@ -202,5 +202,7 @@ Material da hify.ai:
 
 - `deck/ESTRUTURA.md`: deck slide a slide, com objetivo, copy e nota de decisão por slide. Premissa assumida: Rota B, recorte de red team contínuo para IA em produção.
 - `deck/LACUNAS.md`: o que falta para o deck parar de pé, com dono e consequência. Todo `[PREENCHER: ...]` no ESTRUTURA tem entrada aqui.
+- `design-partners/TERMO.md`: minuta do termo de design partner, uma por empresa. Resolve a lacuna 4. A cláusula 7 é o que permite dizer "preço de conversão acordado" no deck e a cláusula 8 é o que permite dizer o nome.
+- `design-partners/ROTEIRO-CONVERSAO.md`: roteiro das conversas com Conta Simples e Enter, com objeções, fechamento e mensagens prontas.
 
 Regra: nenhum número entra no deck sem fonte citável ou dado próprio verificável. Placeholder é melhor que número inventado, porque placeholder some na revisão e número inventado morre na diligência.
