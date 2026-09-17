@@ -4,18 +4,24 @@ Versão de trabalho. Nada aqui é público.
 
 ## Premissa
 
-Rota B, com recorte fechado: **red team contínuo para IA em produção**.
+**Revisada em 17 de setembro de 2026 depois da pesquisa. Ver `PESQUISA.md`.**
 
-Ofensiva, não defesa. Lakera, Zenity, Prompt Security e Protect AI são todos camada defensiva ou de governança. Nenhum deles testa se a defesa aguenta um atacante real.
+O recorte anterior, "red team contínuo para IA em produção", está ocupado. A Gray Swan levantou US$ 40 milhões em junho de 2026 a um valuation de US$ 200 milhões fazendo exatamente isso, com 15 mil hackers no Arena como moat. A Lakera opera o Gandalf e o Agent Breaker. A Protect AI tem o RECON. A Mindgard trata red teaming como pipeline contínuo. A afirmação de que ninguém ataca era falsa.
 
-Por que esse recorte e não outro:
+**Recorte atual: teste de intrusão em sistemas de IA com laudo que satisfaz a CMN 5.274 e a BCB 538.**
 
-1. Mapeia direto no bug bounty ativo do Lucas. Founder-market fit vira verificável em vez de narrativo.
-2. Preserva o instinto original do Igor ("hackeia 24/7 e explora vulnerabilidades") sem cair em pentest de infra, onde XBOW e Horizon3 já queimaram US$ 370M somados.
-3. Vende ao lado dos defensivos, não contra. Quem comprou Lakera precisa provar que a Lakera está funcionando.
-4. Os dois design partners são empresas com IA em produção sobre dado financeiro. Encaixe natural, não forçado.
+O produto continua sendo ataque. O que muda é a entrega. Os concorrentes citados entregam achado técnico em inglês para laboratório de fronteira e enterprise americana. Nenhum entrega laudo com evidência de exploração por achado, mapeamento regulatório para norma brasileira, laudo de reteste e retenção de cinco anos, que é o que a resolução exige.
 
-Se o Igor recusar esse recorte, o deck inteiro muda. Decidir antes de investir em visual.
+Por que esse recorte se defende:
+
+1. **A norma exige profissional independente.** Requisito regulatório, não argumento de marketing, e encaixa no perfil de bug bounty do Lucas melhor do que em ferramenta SaaS.
+2. **O agente já é sistema crítico.** A Febraban documentou que instituições brasileiras concedem credencial de acesso elevado para robô executar transação na infraestrutura central. O pentest anual obrigatório não testa injeção de prompt.
+3. **O comprador tem prazo vencido.** A adequação à CMN 5.274 e à BCB 538 encerrou em 1º de março de 2026.
+4. **A Conta Simples é a prova viva.** O "Faça Seu Agente" deixa o cliente final construir agentes que executam tarefas financeiras numa plataforma que movimentou R$ 90 bilhões no primeiro semestre.
+
+Frase de posicionamento: **o agente de IA virou sistema crítico, o laudo de pentest que o BACEN exige não cobre ele, e a gente cobre.**
+
+Se o Igor recusar esse recorte, o deck muda de novo. Mas o recorte anterior não sobrevive a um investidor que conheça a categoria.
 
 ## Formato
 
@@ -74,42 +80,41 @@ Se os contratos não estiverem assinados na data do pitch, esse slide inteiro vo
 ---
 ## Slide 3. O problema
 
-**Objetivo:** mostrar que existe uma superfície nova e que ninguém está olhando para ela.
+**Objetivo:** mostrar que existe uma superfície nova, que ela já está em produção com dinheiro do outro lado, e que a validação obrigatória não olha para ela.
 
 **Copy:**
 
-> Empresas colocaram IA em produção em 18 meses. A validação de segurança delas continua anual e não olha para IA.
+> Bancos brasileiros já dão credencial de acesso elevado para agentes de IA tomarem decisão operacional e executarem transação na infraestrutura central.
+> Pesquisa Febraban de Tecnologia Bancária 2026
 >
-> Um agente com acesso a ferramenta interna é um usuário com privilégio, sem crachá e sem log de intenção.
+> Pela CMN 5.274 e pela BCB 538, isso é sistema crítico, e sistema crítico exige teste de intrusão anual por profissional independente.
 >
-> O pentest anual testa rede, aplicação e infra. Não testa injeção de prompt, exfiltração de dado via RAG, abuso de ferramenta, nem escalada por integração.
+> O pentest que essas instituições contratam testa rede, aplicação, cloud e Active Directory. Não testa injeção de prompt, exfiltração via RAG, abuso de ferramenta nem escalada por integração.
 >
-> A superfície que mais cresceu é a única que ninguém audita.
+> O sistema mais novo e mais perigoso do banco é o único que o laudo não cobre.
 
-**Nota:** sem estatística de relatório aqui. A frase do agente como usuário sem crachá é o que fica na cabeça. Se entrar número, tem que ser das entrevistas de cliente de vocês, não de Gartner.
+**Nota:** a citação da Febraban carrega o slide inteiro e é verificável. Não diluir com estatística de relatório internacional. Cibersegurança é prioridade de 100% das instituições na mesma pesquisa, e IA generativa de 84%, mas esses dois números só entram se sobrar espaço, porque o achado da credencial elevada é mais forte que os dois juntos.
 
 ---
-
 ## Slide 4. Por que agora
 
-**Objetivo:** responder "por que isso não existia em 2023 e por que não espera até 2028".
+**Objetivo:** responder "por que isso não existia em 2023 e por que não espera até 2028". Com a norma na mão, esse slide deixa de ser tese e passa a ser calendário.
 
 **Copy:**
 
-> Três curvas cruzando.
+> **A obrigação já venceu.** CMN 5.274/2025 e BCB 538/2025: teste de intrusão anual por profissional independente em todos os sistemas críticos, evidência técnica de exploração por achado, mapeamento regulatório explícito, laudo de reteste e retenção de cinco anos. Prazo de adequação encerrado em 1º de março de 2026.
 >
-> **Adoção.** Agentes saíram de piloto para produção entre 2025 e 2026. O acesso a ferramenta e a dado interno veio junto.
+> **A próxima vence em dezembro.** Resolução Conjunta nº 18, em vigor desde 1º de janeiro de 2026: Política de Qualidade das Informações em 12 dimensões, com rastreabilidade e integridade entre elas. Conformidade auditável até 31 de dezembro de 2026.
 >
-> **Regulação.** [PREENCHER: exigências confirmadas de BACEN, ANPD e PCI DSS 4.0 aplicáveis a IA]. O auditor já pergunta. Ninguém tem resposta documentada.
+> **A adoção chegou junto.** R$ 3 bilhões em IA no orçamento dos bancos em 2026, dentro de R$ 50,4 bilhões de tecnologia. Agentes saíram de piloto para execução de transação.
 >
-> **Consolidação.** A Check Point comprou a Lakera em setembro de 2025. A Palo Alto comprou a Protect AI. Incumbente de segurança está comprando entrada na categoria, não construindo.
+> **Os incumbentes estão comprando entrada.** Check Point comprou a Lakera. Palo Alto comprou a Protect AI. SentinelOne comprou a Prompt Security. Cato comprou a Aim Security. Em dois anos, dos cinco nomes da categoria, sobrou a Zenity independente.
 
-**Nota:** a linha de consolidação faz dois trabalhos: prova que a categoria tem saída e mostra ao investidor quem são os compradores naturais. Não transformar isso em slide de exit, uma linha basta.
+**Nota:** não citar o PL 2338 como obrigação. Foi aprovado no Senado em dezembro de 2024, está parado na Câmara e a votação foi adiada para 2026. Ainda não é lei. É o erro que um investidor com fintech no portfólio pega na hora.
 
-O bloco de regulação é o mais frágil do deck. Citar regra que não se aplica exatamente à IA é o tipo de erro que um investidor com fintech no portfólio pega na hora. Ver `LACUNAS.md`.
+A linha de consolidação faz dois trabalhos: prova que a categoria tem saída e mostra quem são os compradores naturais. Uma linha basta, não virar slide de exit.
 
 ---
-
 ## Slide 5. O produto
 
 **Objetivo:** mostrar que existe produto e que vocês pensaram no problema jurídico antes de serem perguntados.
@@ -170,46 +175,50 @@ A prova independente não precisa existir hoje, mas precisa ter data. Meta sem d
 
 ## Slide 8. Concorrência
 
-**Objetivo:** mostrar que vocês conhecem o mercado e que não estão de frente com ninguém capitalizado.
+**Objetivo:** mostrar que vocês conhecem a categoria de verdade, inclusive quem faz ataque. Tentar dizer que ninguém ataca é o caminho mais rápido para perder a sala.
 
-**Copy:** quatro nomes, uma linha cada. Sem matriz de dez logos.
+**Copy:** quatro nomes, uma linha cada. Sem matriz.
 
-> **Lakera** (Check Point). Firewall de runtime. Bloqueia. Não diz o que passa.
+> **Gray Swan.** US$ 40 milhões de Série A, valuation de US$ 200 milhões. Teste adversarial contínuo com 15 mil pesquisadores no Arena. Cliente é laboratório de fronteira.
 >
-> **Zenity.** Governança de agente em plataforma corporativa. Inventário e política. Não ataca.
+> **Lakera** (Check Point). Gandalf e Agent Breaker, o maior corpus público de injeção de prompt. Guarda e testa, em inglês, para enterprise global.
 >
-> **Prompt Security.** Controle do uso de GenAI pelo funcionário. Outro problema.
+> **Protect AI** (Palo Alto). RECON, red teaming de aplicação de IA, dentro de uma suíte de plataforma.
 >
-> **Protect AI** (Palo Alto). Cadeia de suprimento de modelo. Atua antes da produção.
+> **Zenity.** Governança e detecção por intenção em plataforma corporativa. Inventário e política.
 >
-> **hify.ai.** Ataque contínuo contra o que já está em produção.
+> **hify.ai.** Ataque contínuo com laudo que satisfaz a CMN 5.274 e a BCB 538.
 >
-> Todos eles são defesa. Ninguém testa se a defesa aguenta. Vendemos ao lado deles, não contra. Quem comprou Lakera precisa provar que a Lakera está funcionando.
+> Todos eles entregam achado técnico. Nenhum entrega evidência de exploração por achado com mapeamento regulatório brasileiro, laudo de reteste e retenção de cinco anos. E a norma exige profissional independente, não ferramenta.
 
-**Nota:** a última linha é a mais valiosa do deck. Transforma quatro concorrentes em quatro canais. Não diluir.
+**Notas:**
 
-Objeção a preparar para o Q&A, não para o slide: "e se a Lakera lançar isso?". Resposta: ferramenta defensiva que audita a si mesma não tem credibilidade com auditor, pelo mesmo motivo que empresa não contrata o próprio time de dev para assinar o pentest.
+A diferenciação não é ataque contra defesa, é entrega técnica contra entrega regulatória. Quem tentar vender a primeira versão vai ouvir "e a Gray Swan?" e não vai ter resposta.
+
+Objeção para o Q&A, não para o slide: "e se a Gray Swan entrar no Brasil?". Resposta: o cheque médio deles é laboratório de fronteira e enterprise americana, o laudo teria que ser refeito para norma brasileira e a exigência de profissional independente não se resolve com licença de software. Nenhuma dessas barreiras é permanente. A resposta honesta é que a janela existe e é por isso que a rodada é agora.
+
+Segunda objeção provável: "a Conviso não faz isso?". A Conviso é referência nacional em AppSec e DevSecOps e é quem está mais perto de virar a chave. Vale ter a resposta pronta antes de alguém perguntar.
 
 ---
-
 ## Slide 9. Wedge
 
-**Objetivo:** mostrar que vocês têm um comprador específico com prazo, não um mercado abstrato.
+**Objetivo:** mostrar um comprador específico com obrigação vencida, não um mercado abstrato.
 
 **Copy:**
 
-> Não começamos pelo CISO curioso. Começamos pelo compliance com prazo.
+> Não começamos pelo CISO curioso. Começamos por quem tem norma vencida e auditor marcado.
 >
-> Fintech e adquirente brasileira: PCI, exigência do BACEN, LGPD. A auditoria hoje é uma vez por ano, com laudo caro, e não cobre IA.
+> Instituição de pagamento e financeira sob CMN 5.274 e BCB 538: teste de intrusão anual por profissional independente em todo sistema crítico, com evidência retida por cinco anos. Prazo encerrado em março de 2026.
 >
-> O ticket da categoria global exclui o Brasil inteiro fora de banco grande. A Pentera roda perto de US$ 100 mil por ano.
+> Elas cumpriram a norma no que sabiam testar. O agente de IA ficou de fora, porque nenhum fornecedor de pentest brasileiro sabe testar isso e nenhum fornecedor global entrega o laudo no formato que o BC exige.
 >
-> Entramos por aí, provamos em ambiente com dado financeiro e obrigação regulatória, e subimos a partir da prova.
+> É esse buraco que a gente ocupa.
 
-**Nota:** "compliance com prazo" contra "CISO curioso" é a diferença entre ciclo de venda de 45 dias e de 9 meses. É o argumento de go-to-market inteiro em uma frase, e por isso não precisa de slide de GTM separado.
+**Nota:** "norma vencida com auditor marcado" contra "CISO curioso" é a diferença entre ciclo de venda de 45 dias e de 9 meses. É o go-to-market inteiro em uma frase, e por isso não precisa de slide de GTM separado.
+
+Esse slide ficou mais forte que a versão anterior porque deixou de ser tese sobre compliance e passou a citar número de resolução e data vencida. Confirmar com alguém de compliance de fintech antes do primeiro pitch, porque errar interpretação de norma na frente de um investidor com fintech no portfólio custa a reunião.
 
 ---
-
 ## Slide 10. Mercado, de baixo para cima
 
 **Objetivo:** mostrar conta real. TAM de relatório queima credibilidade em 2026.
@@ -226,6 +235,8 @@ Objeção a preparar para o Q&A, não para o slide: "e se a Lakera lançar isso?
 **Nota:** o multiplicador do meio tem que sair das entrevistas de vocês. É o único número do deck que nenhum concorrente tem, e é o que prova que vocês falaram com o mercado. Número de fonte pública nesse lugar desperdiça o slide.
 
 A força desse slide é que o preço não é estimativa. R$ 240 mil por ano por ambiente é o que a Conta Simples e a Enter estão pagando, não o que vocês esperam cobrar. Diga isso em voz alta na apresentação, porque é a diferença entre mercado bottom-up e TAM disfarçado.
+
+**Ressalva que precisa estar na conta, não escondida.** Existem mais de 200 instituições de pagamento autorizadas pelo BC, contra 26 no início da década. Multiplicar 200 por R$ 240 mil dá um número bonito e falso, porque 80% das contratações de pentest no Brasil ficam entre R$ 8 mil e R$ 18 mil pelo ano inteiro. O mercado a R$ 240 mil é a faixa de cima. A conta honesta corta duas vezes: quantas instituições têm IA em produção com credencial de execução, e dessas, quantas têm orçamento nessa faixa. O segundo corte sai das entrevistas de vocês, e é ele que prova que vocês falaram com o mercado.
 
 ---
 
